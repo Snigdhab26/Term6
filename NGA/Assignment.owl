@@ -1,0 +1,607 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.gra.fo/schema/untitled-ekg#"
+     xml:base="http://www.gra.fo/schema/untitled-ekg"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:gf="http://www.gra.fo/schema/untitled-ekg#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/spec/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="http://www.gra.fo/schema/untitled-ekg"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#body -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#body">
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Body</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#bodyengine -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#bodyengine">
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>BodyEngine</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#bodymanu -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#bodymanu">
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>BodyManu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#engine -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#engine">
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Engine</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#engmanu -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#engmanu">
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>EngManu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#fuel -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#fuel">
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Fuel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#fuelengine -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#fuelengine">
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>FuelEngine</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#fuelmanu -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#fuelmanu">
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>FuelManu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#manufacture -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#manufacture">
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Manufacture</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#body_id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#body_id">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Body"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Body_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#body_style -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#body_style">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Body"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>body_style</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#drive_wheels -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#drive_wheels">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Body"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>drive_wheels</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#engine_id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#engine_id">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Engine"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Engine_ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#engine_location -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#engine_location">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Body"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>engine_location</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#engine_size -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#engine_size">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Engine"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>engine_size</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#engine_type -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#engine_type">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Engine"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>engine_type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#fuel_id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#fuel_id">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Fuel"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Fuel_ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#fuel_system -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#fuel_system">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Fuel"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>fuel_system</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#fuel_type -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#fuel_type">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Fuel"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>fuel_type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#make -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#make">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Manufacturers"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>make</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#make_id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#make_id">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Manufacturers"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Make_ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#num_of_cylinders -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#num_of_cylinders">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Engine"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>num_of_cylinders</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#num_of_doors -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#num_of_doors">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Body"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>num_of_doors</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#price -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.gra.fo/schema/untitled-ekg#price">
+        <rdfs:domain rdf:resource="http://www.gra.fo/schema/untitled-ekg#Price"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Body -->
+
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Body">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#body"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#bodyengine"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Engine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#bodymanu"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Manufacturers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Engine -->
+
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Engine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#bodyengine"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#engine"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#engmanu"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Manufacturers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#fuelengine"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Fuel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Engine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Fuel -->
+
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Fuel">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#fuel"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#fuelengine"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Engine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#fuelmanu"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Manufacturers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Fuel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Manufacturers -->
+
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Manufacturers">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#bodymanu"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#engmanu"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Engine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#fuelmanu"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Fuel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#manufacture"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Manufacturers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Price -->
+
+
+    <owl:Class rdf:about="http://www.gra.fo/schema/untitled-ekg#Price">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#body"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Body"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#engine"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Engine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#fuel"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Fuel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.gra.fo/schema/untitled-ekg#manufacture"/>
+                <owl:someValuesFrom rdf:resource="http://www.gra.fo/schema/untitled-ekg#Manufacturers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>Price</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.gra.fo/schema/Gas# -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/Gas#">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg#Fuel"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>gas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg# -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg#Price"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>13495</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Audi -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#Audi">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg#Manufacturers"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>audi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Bmw -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#Bmw">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg#Manufacturers"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>bmw</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Convertible -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#Convertible">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg#Body"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>convertible</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Dohc -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#Dohc">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg#Engine"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>dohc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Electric -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#Electric">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg#Fuel"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>electric</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Ohc -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#Ohc">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg#Engine"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>ohc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#Sedan -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#Sedan">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg#Body"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>sedan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.gra.fo/schema/untitled-ekg#_08e17f5a-02fa-462f-bf6e-ea3719cfaa0a -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.gra.fo/schema/untitled-ekg#_08e17f5a-02fa-462f-bf6e-ea3719cfaa0a">
+        <rdf:type rdf:resource="http://www.gra.fo/schema/untitled-ekg#Price"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.gra.fo/schema/untitled-ekg"/>
+        <rdfs:label>20970</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://www.gra.fo/schema/untitled-ekg">
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Assignment</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.17) https://github.com/owlcs/owlapi/ -->
+
+
